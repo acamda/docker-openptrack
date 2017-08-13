@@ -11,4 +11,6 @@ RUN /bin/bash -c "cd /open_ptrack/scripts; \
     ./openptrack_install.sh; \
 "
 
+ENV KINECT_DRIVER openni
+
 CMD [ 'roslaunch' ]
